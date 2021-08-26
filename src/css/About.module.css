@@ -1,0 +1,36 @@
+.title {
+  font: inherit;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.plans {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.contacts {
+  font-weight: bold;
+  color: #0e3485;
+}
+
+.contacts p {
+  margin: 0;
+}
+
+.softs {
+  margin-top: 3rem;
+}
+
+.soft-list p {
+  margin: 0;
+  font: inherit;
+  font-size: 17px;
+  font-style: italic;
+  text-decoration: underline;
+}

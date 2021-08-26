@@ -1,0 +1,41 @@
+header {
+  padding: 0 5rem;
+  background-color: #0e3485;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font: inherit;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+header a {
+  font: inherit;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover{
+  color: #ccc;
+}
+
+header a.active {
+  border-bottom: 1px solid white;
+}

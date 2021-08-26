@@ -1,0 +1,22 @@
+footer {
+  background-color: #0e3485;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  width: 100%;
+  padding: 15px 100px;
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+}
+
+footer p {
+  font: inherit;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
