@@ -1,3 +1,8 @@
 .coming{
     margin: 10rem auto;
 }
+
+.coming h2{
+    text-align: center;
+    font-size: 2rem;
+}
