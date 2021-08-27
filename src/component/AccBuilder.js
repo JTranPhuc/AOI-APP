@@ -5,7 +5,6 @@ import { acc_builder_actions, side_effect_actions } from "../store/redux-core";
 import BigCard from "../ui/BigCard";
 import LoadingSpinner from "../ui/LoadingSpinner";
 import MediumCard from "../ui/MediumCard";
-import GuidePic from "../imgs/mail-maker.PNG";
 
 const AccBuilder = (props) => {
   const { result } = useSelector((state) => state.acc_builder_reducer);
@@ -91,7 +90,11 @@ const AccBuilder = (props) => {
           <div className={classes.navigation}>
             <p>
               How to use:
-              <a href={GuidePic} target="_blank" rel="noreferrer">
+              <a
+                href="https://imgur.com/1IYFsle"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Link
               </a>
             </p>
@@ -104,14 +107,16 @@ const AccBuilder = (props) => {
                 rel="noreferrer"
               >
                 Link 1
-              </a>-
+              </a>
+              -
               <a
                 href="https://pastebin.com/S3sSZMVb"
                 target="_blank"
                 rel="noreferrer"
               >
                 Link 2
-              </a>-
+              </a>
+              -
               <a
                 href="https://pastebin.com/KiUjJYgn"
                 target="_blank"

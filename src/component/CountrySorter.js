@@ -5,7 +5,6 @@ import { email_sorter_actions, side_effect_actions } from "../store/redux-core";
 import BigCard from "../ui/BigCard";
 import LoadingSpinner from "../ui/LoadingSpinner";
 import MediumCard from "../ui/MediumCard";
-import GuidePic from "../imgs/country-sort.PNG";
 
 const CountrySorter = (props) => {
   const mailListRef = useRef();
@@ -90,7 +89,7 @@ const CountrySorter = (props) => {
             <p>Import max: 20k mail</p>
             <p>
               How to use:
-              <a href={GuidePic} target="_blank" rel="noreferrer">
+              <a href="https://imgur.com/dBJxF7M" target="_blank" rel="noreferrer">
                 Link
               </a>
             </p>
