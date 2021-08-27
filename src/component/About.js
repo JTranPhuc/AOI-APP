@@ -8,6 +8,11 @@ const About = (props) => {
       <BigCard>
         <h2>Contact me</h2>
         <div>
+          <div className={classes.contacts}>
+            <p>Skype: tranphucggg</p>
+            <p>ICQ: @700589020</p>
+          </div>
+
           <p className={classes.title}>*Windows & Linux Centos vps for sale</p>
           <div className={classes.plans}>
             <p>Plan I: 2core-4gb ram</p>
@@ -18,10 +23,6 @@ const About = (props) => {
             Accept: spam,scan..., admin rdp, guarantee strong live, renew
             monthly, change white/clean IP unlimited.
           </p>
-          <div className={classes.contacts}>
-            <p>Skype: tranphucggg</p>
-            <p>ICQ: @700589020</p>
-          </div>
         </div>
 
         <div className={classes.softs}>

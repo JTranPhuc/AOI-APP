@@ -1,0 +1,25 @@
+.home {
+  margin: 10rem auto;
+}
+
+.home ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.home p{
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.home a {
+  text-decoration: none;
+  font: inherit;
+  font-size: 30px;
+  font-weight: bold;
+}

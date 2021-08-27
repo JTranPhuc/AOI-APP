@@ -1,3 +1,12 @@
+h2{
+  font:inherit;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
 .title {
   font: inherit;
   font-weight: bold;
@@ -24,7 +33,7 @@
 }
 
 .softs {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .soft-list p {

@@ -1,0 +1,142 @@
+h2 {
+  font: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5rem;
+  text-align: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.controls {
+  display: inline-block;
+  width: 100rem;
+}
+
+.controls label {
+  font: inherit;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.controls span {
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: initial;
+}
+
+.controls textarea {
+  resize: none;
+  width: 100%;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.controls textarea:focus {
+  outline: none;
+}
+
+.country-code {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.country-code label {
+  font: inherit;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.country-code input {
+  font: inherit;
+  font-size: 17px;
+  padding: 0.7rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 10rem;
+  max-width: 100%;
+}
+
+.country-code input:focus {
+  outline: none;
+}
+
+.action {
+  text-align: center;
+  align-items: center;
+}
+
+.action button {
+  font: inherit;
+  font-size: 25px;
+  padding: 0.7rem 4rem;
+  background-color: rgb(48, 81, 151);
+  color: white;
+  width: 25rem;
+  max-width: 100%;
+}
+
+@media (min-width: 300px) {
+  .action button {
+    font-size: 14px;
+    padding: 0.7rem;
+    width: 12rem;
+    max-width: 100%;
+  }
+}
+@media (min-width: 500px) {
+  .action button {
+    font-size: 25px;
+    padding: 0.7rem 4rem;
+    width: 25rem;
+    max-width: 100%;
+  }
+}
+
+.action button:hover {
+  background-color: rgb(63, 98, 175);
+}
+
+.result {
+  width: 80rem !important;
+}
+
+.result textarea {
+  background-color: #ececec;
+}
+
+.navigation {
+    margin: auto;
+    width: 30rem;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .navigation p {
+    margin: auto;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    padding-left: 0.3rem;
+  }

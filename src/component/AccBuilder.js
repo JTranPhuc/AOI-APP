@@ -5,6 +5,7 @@ import { acc_builder_actions, side_effect_actions } from "../store/redux-core";
 import BigCard from "../ui/BigCard";
 import LoadingSpinner from "../ui/LoadingSpinner";
 import MediumCard from "../ui/MediumCard";
+import GuidePic from "../imgs/mail-maker.PNG";
 
 const AccBuilder = (props) => {
   const { result } = useSelector((state) => state.acc_builder_reducer);
@@ -42,7 +43,7 @@ const AccBuilder = (props) => {
   return (
     <Fragment>
       <BigCard>
-        <h2>Email Account Builder</h2>
+        <h2>Mail Account Maker</h2>
         <ul>
           <MediumCard className={classes.controls}>
             <label>First name</label>
@@ -72,7 +73,7 @@ const AccBuilder = (props) => {
           </MediumCard>
 
           <div className={classes.action}>
-            <button onClick={BuildAccountHandler}>Create Account</button>
+            <button onClick={BuildAccountHandler}>Make Account</button>
           </div>
 
           <MediumCard className={classes.controls} additional={classes.result}>
@@ -89,36 +90,36 @@ const AccBuilder = (props) => {
 
           <div className={classes.navigation}>
             <p>
-              First name list:
+              How to use:
+              <a href={GuidePic} target="_blank" rel="noreferrer">
+                Link
+              </a>
+            </p>
+            <p>Duplicate rate: 0.0000147693%</p>
+            <p>
+              First/Last name - Extension list:
               <a
                 href="https://pastebin.com/QaxNUqwX"
                 target="_blank"
                 rel="noreferrer"
               >
-                Link
-              </a>
-            </p>
-            <p>
-              Last name list:
+                Link 1
+              </a>-
               <a
                 href="https://pastebin.com/S3sSZMVb"
                 target="_blank"
                 rel="noreferrer"
               >
-                Link
-              </a>
-            </p>
-            <p>
-              Mail extension:
+                Link 2
+              </a>-
               <a
                 href="https://pastebin.com/KiUjJYgn"
                 target="_blank"
                 rel="noreferrer"
               >
-                Link
+                Link 3
               </a>
             </p>
-            <p>Duplicate rate: 0.0000147693%</p>
           </div>
         </ul>
       </BigCard>
