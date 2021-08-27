@@ -67,17 +67,41 @@ ul {
   margin: auto;
 }
 
-.navigation a{
+.navigation a {
   text-decoration: none;
   padding-left: 0.3rem;
+}
+
+.action {
+  text-align: center;
+  align-items: center;
 }
 
 .action button {
   font: inherit;
   font-size: 25px;
-  padding: 0.7rem 5rem;
+  padding: 0.7rem 4rem;
   background-color: rgb(48, 81, 151);
   color: white;
+  width: 25rem;
+  max-width: 100%;
+}
+
+@media (min-width: 300px) {
+  .action button {
+    font-size: 14px;
+    padding: 0.7rem;
+    width: 12rem;
+    max-width: 100%;
+  }
+}
+@media (min-width: 500px) {
+  .action button {
+    font-size: 25px;
+    padding: 0.7rem 4rem;
+    width: 25rem;
+    max-width: 100%;
+  }
 }
 
 .action button:hover {

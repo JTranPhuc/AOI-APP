@@ -5,7 +5,7 @@ const Header = (props) => {
   return (
     <header>
       <h1>
-        <FaTools /> AIO
+        <FaTools className={classes.tools} /> AIO
       </h1>
       <nav>
         <ul>
