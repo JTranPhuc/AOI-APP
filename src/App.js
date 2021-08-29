@@ -10,6 +10,7 @@ const AccBuilderLazy = React.lazy(() => import("./component/AccBuilder"));
 const MailSorterLazy = React.lazy(() => import("./component/CountrySorter"));
 const AboutLazy = React.lazy(() => import("./component/About"));
 const HomeLazy = React.lazy(() => import("./component/Home"));
+const GodaddyLazy = React.lazy(() => import("./component/Godaddy"));
 const ComingSoonPageLazy = React.lazy(() => import("./component/ComingPage"));
 
 function App() {
@@ -35,6 +36,10 @@ function App() {
 
             <Route path="/mail-sorter">
               <MailSorterLazy></MailSorterLazy>
+            </Route>
+
+            <Route path="/godaddy-checker">
+              <GodaddyLazy></GodaddyLazy>
             </Route>
 
             <Route path="/mail-maker">

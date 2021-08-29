@@ -12,6 +12,9 @@ const Home = (props) => {
           <Link to="/mail-maker">Random Mail Account Maker</Link>
         </li>
         <li>
+          <Link to="/godaddy-checker">Godaddy Checker (Windows app)</Link>
+        </li>
+        <li>
           <p>... Coming soon ...</p>
         </li>
         <li>
