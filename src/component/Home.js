@@ -18,6 +18,9 @@ const Home = (props) => {
           <p>... Coming soon ...</p>
         </li>
         <li>
+          <Link to="/coming-soon">OWA Checker (Windows app)</Link>
+        </li>
+        <li>
           <Link to="/coming-soon">Mail Sorter(Domain)</Link>
         </li>
 
