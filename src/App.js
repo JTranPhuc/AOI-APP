@@ -11,6 +11,7 @@ const MailSorterLazy = React.lazy(() => import("./component/CountrySorter"));
 const AboutLazy = React.lazy(() => import("./component/About"));
 const HomeLazy = React.lazy(() => import("./component/Home"));
 const GodaddyLazy = React.lazy(() => import("./component/Godaddy"));
+const TunnelierLazy = React.lazy(() => import("./component/SshMultiConnector"));
 const ComingSoonPageLazy = React.lazy(() => import("./component/ComingPage"));
 
 function App() {
@@ -40,6 +41,10 @@ function App() {
 
             <Route path="/godaddy-checker">
               <GodaddyLazy></GodaddyLazy>
+            </Route>
+
+            <Route path="/multi-tunnelier-connector">
+              <TunnelierLazy></TunnelierLazy>
             </Route>
 
             <Route path="/mail-maker">

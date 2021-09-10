@@ -9,7 +9,7 @@ h2 {
   text-decoration: underline;
 }
 
-ul {
+.list{
   list-style: none;
   align-items: center;
   text-align: center;

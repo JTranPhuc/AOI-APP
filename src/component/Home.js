@@ -15,25 +15,19 @@ const Home = (props) => {
           <Link to="/godaddy-checker">Godaddy Checker (Windows app)</Link>
         </li>
         <li>
+          <Link to="/multi-tunnelier-connector">Multi Tunnelier/SSH Connector (Windows app)</Link>
+        </li>
+        <li>
           <p>... Coming soon ...</p>
+        </li>
+        <li>
+          <Link to="/coming-soon">Tunnelier/SSH Auto change SSH</Link>
         </li>
         <li>
           <Link to="/coming-soon">OWA Checker (Windows app)</Link>
         </li>
         <li>
           <Link to="/coming-soon">Mail Sorter(Domain)</Link>
-        </li>
-
-        <li>
-          <Link to="/coming-soon">Mail Filter</Link>
-        </li>
-
-        <li>
-          <Link to="/coming-soon">IP Range Extractor</Link>
-        </li>
-
-        <li>
-          <Link to="/coming-soon">Login Page Checker</Link>
         </li>
       </ul>
     </div>

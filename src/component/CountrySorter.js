@@ -49,7 +49,7 @@ const CountrySorter = (props) => {
     <Fragment>
       <BigCard>
         <h2>Email Sorter (Country)</h2>
-        <ul>
+        <ul className={classes.list}>
           <MediumCard className={classes.controls}>
             <label>Mail list</label>
             <textarea
