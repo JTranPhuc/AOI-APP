@@ -31,6 +31,12 @@ const SshMultiConnector = (props) => {
           <p className={classes.title}>*Features</p>
           <div className={classes.features}>
             <ul>
+              <li>
+                Demo: 
+                 <a href="https://www.youtube.com/watch?v=QMbv6owWpKo" target="_blank" rel="noreferrer">
+                   https://www.youtube.com/watch?v=QMbv6owWpKo
+                </a>
+              </li>
               <li>Multi connect tunnelier</li>
               <li>Auto order SSH list</li>
               <li>Customize port</li>
