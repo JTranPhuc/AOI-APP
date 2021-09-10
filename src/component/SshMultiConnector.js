@@ -34,7 +34,7 @@ const SshMultiConnector = (props) => {
               <li>
                 Demo: 
                  <a href="https://www.youtube.com/watch?v=QMbv6owWpKo" target="_blank" rel="noreferrer">
-                   https://www.youtube.com/watch?v=QMbv6owWpKo
+                   Youtube
                 </a>
               </li>
               <li>Multi connect tunnelier</li>
