@@ -12,6 +12,7 @@ const AboutLazy = React.lazy(() => import("./component/About"));
 const HomeLazy = React.lazy(() => import("./component/Home"));
 const GodaddyLazy = React.lazy(() => import("./component/Godaddy"));
 const TunnelierLazy = React.lazy(() => import("./component/SshMultiConnector"));
+const AutoChangerLazy = React.lazy(() => import("./component/AutoChangeSshByTime"));
 const ComingSoonPageLazy = React.lazy(() => import("./component/ComingPage"));
 
 function App() {
@@ -45,6 +46,10 @@ function App() {
 
             <Route path="/multi-tunnelier-connector">
               <TunnelierLazy></TunnelierLazy>
+            </Route>
+
+            <Route path="/ssh-changer">
+              <AutoChangerLazy></AutoChangerLazy>
             </Route>
 
             <Route path="/mail-maker">

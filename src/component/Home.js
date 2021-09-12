@@ -18,6 +18,9 @@ const Home = (props) => {
           <Link to="/multi-tunnelier-connector">Multi Tunnelier/SSH Connector (Windows app)</Link>
         </li>
         <li>
+          <Link to="/ssh-changer">Auto Change Tunnelier/SSH By Time (Windows app)</Link>
+        </li>
+        <li>
           <p>... Coming soon ...</p>
         </li>
         <li>

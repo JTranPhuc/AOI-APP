@@ -1,0 +1,96 @@
+h2 {
+    font: inherit;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  .warning {
+    font: inherit;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  
+  .title {
+    font: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .plans {
+    text-decoration: underline;
+    font-style: italic;
+  }
+  
+  .download {
+    font: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .demo p {
+    margin: 0;
+    font: inherit;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .demo a {
+    text-decoration: none;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+  
+  .demo a:hover {
+    color: #7575cc;
+  }
+  
+  .img-gif {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* @media (min-width: 350px) {
+    .testss {
+      display: none;
+    }
+  }
+  @media (min-width: 700px) {
+    .testss {
+      display: inline-block;
+    }
+  } */
+  
+  @media screen and (min-width: 350px) {
+    .img-gif {
+      display: none;
+    }
+  
+    .alt {
+      display: inline-block;
+      font-weight: bold;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .img-gif {
+      display: inline-block;
+    }
+  
+    .alt {
+      display: none;
+    }
+  }
+  
+  .contact{
+    font: inherit;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
